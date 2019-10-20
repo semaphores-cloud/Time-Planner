@@ -8,7 +8,7 @@ $(".saveBtn").on("click", function(){
     localStorage.setItem(time, value)
 })
 
-$("#8-am .description" ).val(localStorage.getItem("8-am"))
+
 $("#9-am .description" ).val(localStorage.getItem("9-am"))
 $("#10-am .description" ).val(localStorage.getItem("10-am"))
 $("#11-am .description" ).val(localStorage.getItem("11-am"))
@@ -18,6 +18,7 @@ $("#14-pm .description" ).val(localStorage.getItem("14-pm"))
 $("#15-pm .description" ).val(localStorage.getItem("15-pm"))
 $("#16-pm .description" ).val(localStorage.getItem("16-pm"))
 $("#17-pm .description" ).val(localStorage.getItem("17-pm"))
+
 
 
 function checktime(){
